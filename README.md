@@ -18,6 +18,7 @@ He agregado comentarios personales explicativos a lo largo de los notebooks para
 | Curso | Descripción |
 | :--- | :--- |
 | [**1. Redes Neuronales y Aprendizaje Profundo**](./Redes%20neuronales%20y%20aprendizaje%20profundo/) | Construcción de una Regresión Logística y Redes Neuronales Profundas desde cero para clasificar imágenes. |
+| [**2. Mejora de Redes Neuronales Profundas**](./Mejora%20de%20redes%20neuronales%20profundas/) | Ajuste de hiperparámetros, regularización y optimización. |
 
 *(Nota: Los próximos cursos se irán agregando a medida que los vaya completando).*
 
