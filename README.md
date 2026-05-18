@@ -1,42 +1,79 @@
 <div align="center">
-  <h1> Deep Learning Specialization (Coursera)</h1>
-  <p>Mis soluciones, notas y proyectos de la especialización impartida por Andrew Ng.</p>
+  <h1>🧠 Especialización en Deep Learning (Coursera)</h1>
+  <p><strong>Mis soluciones, notas de aprendizaje e implementaciones detalladas de la especialización impartida por Andrew Ng (DeepLearning.AI).</strong></p>
 
-  ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-  ![NumPy](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white)
-  ![Jupyter](https://img.shields.io/badge/Jupyter-F37626.svg?style=for-the-badge&logo=Jupyter&logoColor=white)
+  <p>
+    <img src="https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+    <img src="https://img.shields.io/badge/NumPy-1.20+-777BB4?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy">
+    <img src="https://img.shields.io/badge/TensorFlow-2.0+-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow">
+    <img src="https://img.shields.io/badge/Jupyter-F37626.svg?style=for-the-badge&logo=Jupyter&logoColor=white" alt="Jupyter">
+  </p>
 </div>
 
-##  Sobre este repositorio
+---
 
-Este repositorio funciona como mi portafolio de estudio práctico para la especialización de Deep Learning. Aquí documento paso a paso mis implementaciones, enfocándome en comprender las matemáticas detrás de las redes neuronales y construyéndolas desde cero utilizando Python y NumPy.
+## 📋 Sobre este repositorio
 
-He agregado comentarios personales explicativos a lo largo de los notebooks para demostrar un entendimiento profundo del código (anotaciones línea por línea), en lugar de simplemente completar los ejercicios.
+Este repositorio es mi portafolio de estudio práctico sobre **Deep Learning** y **Redes Neuronales**. En lugar de simplemente completar los ejercicios sugeridos, he documentado exhaustivamente cada notebook con **anotaciones en español línea por línea y comentarios personales explicativos**. 
 
-##  Estructura del Repositorio
+El objetivo principal es consolidar un entendimiento profundo de la matemática detrás del aprendizaje profundo (álgebra lineal, cálculo de gradientes y optimización) y construir algoritmos desde cero utilizando principalmente **Python y NumPy**, para luego transicionar a frameworks industriales como **TensorFlow y Keras**.
 
-| Curso | Descripción |
-| :--- | :--- |
-| [**1. Redes Neuronales y Aprendizaje Profundo**](./Redes%20neuronales%20y%20aprendizaje%20profundo/) | Construcción de una Regresión Logística y Redes Neuronales Profundas desde cero para clasificar imágenes. |
-| [**2. Mejora de Redes Neuronales Profundas**](./Mejora%20de%20redes%20neuronales%20profundas/) | Ajuste de hiperparámetros, regularización y optimización. |
+---
 
-*(Nota: Los próximos cursos se irán agregando a medida que los vaya completando).*
+## 🗺️ Estructura de la Especialización
 
-##  Cómo ejecutar los proyectos
+| Curso | Estado | Descripción y Proyectos Destacados |
+| :--- | :---: | :--- |
+| 📘 [**1. Redes Neuronales y Aprendizaje Profundo**](./Redes%20neuronales%20y%20aprendizaje%20profundo/) | **Completado** 🚀 | Construcción paso a paso de Regresión Logística y Redes Neuronales Profundas ($L$-capas) desde cero con NumPy para clasificación de imágenes. |
+| 📙 [**2. Mejora de Redes Neuronales Profundas**](./Mejora%20de%20redes%20neuronales%20profundas/) | **Completado** 🚀 | Optimización del rendimiento: inicialización matemática (He/Xavier), regularización (L2, Dropout), algoritmos avanzados (Momentum, RMSprop, Adam) e introducción práctica a TensorFlow 2. |
 
-Si deseas clonar este repositorio y ejecutar los notebooks localmente:
+*(Nota: A medida que avance en los siguientes cursos de la especialización, se irán integrando al índice del repositorio).*
 
-1. Clona el repositorio:
+---
+
+## 🛠️ Tecnologías y Herramientas utilizadas
+
+- **Python** como lenguaje de programación principal.
+- **NumPy** para operaciones vectoriales eficientes y manejo matricial de alta velocidad.
+- **Matplotlib** para visualizar fronteras de decisión, curvas de pérdida y análisis cualitativo de predicciones.
+- **H5py y SciPy** para procesamiento e importación de datasets complejos (por ejemplo, imágenes en formato H5).
+- **TensorFlow 2 y Keras** para el desarrollo rápido y la escalabilidad de modelos profundos en las últimas etapas.
+
+---
+
+## 🚀 Cómo ejecutar los proyectos localmente
+
+Para explorar los notebooks y experimentar con los modelos:
+
+1. **Clona este repositorio:**
    ```bash
    git clone https://github.com/fpaim/Deep-Learning-Specialization-Andrew-Ng-Coursera.git
+   cd Deep-Learning-Specialization-Andrew-Ng-Coursera
    ```
-2. Crea un entorno virtual e instala las dependencias:
+
+2. **Crea y activa un entorno virtual de Python:**
    ```bash
    python -m venv .venv
-   source .venv/bin/activate  # En Windows: .venv\Scripts\activate
+   # En Windows:
+   .venv\Scripts\activate
+   # En macOS/Linux:
+   source .venv/bin/activate
+   ```
+
+3. **Instala las dependencias necesarias:**
+   ```bash
    pip install -r requirements.txt
    ```
-3. Ejecuta Jupyter Notebook:
+
+4. **Inicia Jupyter Notebook o ejecuta en tu IDE favorito (como VS Code):**
    ```bash
    jupyter notebook
    ```
+
+---
+
+## ✍️ Mi Filosofía de Aprendizaje
+Cada línea de código en estos notebooks ha sido analizada y comentada detalladamente. Mi enfoque es:
+1. **No usar cajas negras:** Programar primero desde cero ($w$ y $b$, activaciones, costes y gradientes) para interiorizar el flujo real.
+2. **Documentar el "Por qué":** Explicar en español las dimensiones matriciales, el broadcasting y la lógica detrás del código.
+3. **Análisis de Hiperparámetros:** Evaluar de forma práctica cómo impacta variar la tasa de aprendizaje ($\alpha$), el número de épocas, la regularización o el método de inicialización en el comportamiento final del modelo.
